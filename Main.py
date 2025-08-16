@@ -24,7 +24,7 @@ def is_directory(path,content):
     return os.path.isdir(full_path)
 
 #collects directories
-def directories_list(path, commonn_names):
+def directories_list(path, common_names):
     doc_list = []
 
     for item in common_names:
@@ -48,6 +48,8 @@ def file_list(path, commonn_names):
             doc_list.append(item)
 
     return doc_list
+
+
 
 device_path = "/home/tumelo/Downloads"
 usb_path = "/media/tumelo/TUM3L0/"
